@@ -12,7 +12,7 @@ import pandas as pd
 model = tf.keras.models.load_model("final_dia_CNN.h5")
 
 # Streamlit app
-st.title('Diabetes Prediction using Deep Learning')
+st.title('Diabetes Prediction App using Deep Learning')
 
 # File uploader for image input
 uploaded_file = st.file_uploader("Choose an image...", type="png")
